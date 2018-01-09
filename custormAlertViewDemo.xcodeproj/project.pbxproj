@@ -16,6 +16,7 @@
 		4CEE71782004CFA7002BC219 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE71772004CFA7002BC219 /* main.m */; };
 		4CEE71822004CFA7002BC219 /* custormAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE71812004CFA7002BC219 /* custormAlertViewTests.m */; };
 		4CEE718D2004CFA7002BC219 /* custormAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE718C2004CFA7002BC219 /* custormAlertViewUITests.m */; };
+		4CEE719C2004CFF2002BC219 /* customAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE719B2004CFF2002BC219 /* customAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4CEE71622004CFA7002BC219 /* custormAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = custormAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CEE71622004CFA7002BC219 /* custormAlertViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = custormAlertViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEE71652004CFA7002BC219 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4CEE71662004CFA7002BC219 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4CEE71682004CFA7002BC219 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -47,12 +48,14 @@
 		4CEE71742004CFA7002BC219 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CEE71762004CFA7002BC219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CEE71772004CFA7002BC219 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4CEE717D2004CFA7002BC219 /* custormAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = custormAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CEE717D2004CFA7002BC219 /* custormAlertViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = custormAlertViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEE71812004CFA7002BC219 /* custormAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = custormAlertViewTests.m; sourceTree = "<group>"; };
 		4CEE71832004CFA7002BC219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4CEE71882004CFA7002BC219 /* custormAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = custormAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CEE71882004CFA7002BC219 /* custormAlertViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = custormAlertViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEE718C2004CFA7002BC219 /* custormAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = custormAlertViewUITests.m; sourceTree = "<group>"; };
 		4CEE718E2004CFA7002BC219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CEE719A2004CFF1002BC219 /* customAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customAlertView.h; sourceTree = "<group>"; };
+		4CEE719B2004CFF2002BC219 /* customAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		4CEE71592004CFA7002BC219 = {
 			isa = PBXGroup;
 			children = (
+				4CEE719A2004CFF1002BC219 /* customAlertView.h */,
+				4CEE719B2004CFF2002BC219 /* customAlertView.m */,
 				4CEE71642004CFA7002BC219 /* custormAlertView */,
 				4CEE71802004CFA7002BC219 /* custormAlertViewTests */,
 				4CEE718B2004CFA7002BC219 /* custormAlertViewUITests */,
@@ -93,9 +98,9 @@
 		4CEE71632004CFA7002BC219 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4CEE71622004CFA7002BC219 /* custormAlertView.app */,
-				4CEE717D2004CFA7002BC219 /* custormAlertViewTests.xctest */,
-				4CEE71882004CFA7002BC219 /* custormAlertViewUITests.xctest */,
+				4CEE71622004CFA7002BC219 /* custormAlertViewDemo.app */,
+				4CEE717D2004CFA7002BC219 /* custormAlertViewDemoTests.xctest */,
+				4CEE71882004CFA7002BC219 /* custormAlertViewDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,9 +143,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4CEE71612004CFA7002BC219 /* custormAlertView */ = {
+		4CEE71612004CFA7002BC219 /* custormAlertViewDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4CEE71912004CFA7002BC219 /* Build configuration list for PBXNativeTarget "custormAlertView" */;
+			buildConfigurationList = 4CEE71912004CFA7002BC219 /* Build configuration list for PBXNativeTarget "custormAlertViewDemo" */;
 			buildPhases = (
 				4CEE715E2004CFA7002BC219 /* Sources */,
 				4CEE715F2004CFA7002BC219 /* Frameworks */,
@@ -150,14 +155,14 @@
 			);
 			dependencies = (
 			);
-			name = custormAlertView;
+			name = custormAlertViewDemo;
 			productName = custormAlertView;
-			productReference = 4CEE71622004CFA7002BC219 /* custormAlertView.app */;
+			productReference = 4CEE71622004CFA7002BC219 /* custormAlertViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4CEE717C2004CFA7002BC219 /* custormAlertViewTests */ = {
+		4CEE717C2004CFA7002BC219 /* custormAlertViewDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4CEE71942004CFA7002BC219 /* Build configuration list for PBXNativeTarget "custormAlertViewTests" */;
+			buildConfigurationList = 4CEE71942004CFA7002BC219 /* Build configuration list for PBXNativeTarget "custormAlertViewDemoTests" */;
 			buildPhases = (
 				4CEE71792004CFA7002BC219 /* Sources */,
 				4CEE717A2004CFA7002BC219 /* Frameworks */,
@@ -168,14 +173,14 @@
 			dependencies = (
 				4CEE717F2004CFA7002BC219 /* PBXTargetDependency */,
 			);
-			name = custormAlertViewTests;
+			name = custormAlertViewDemoTests;
 			productName = custormAlertViewTests;
-			productReference = 4CEE717D2004CFA7002BC219 /* custormAlertViewTests.xctest */;
+			productReference = 4CEE717D2004CFA7002BC219 /* custormAlertViewDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4CEE71872004CFA7002BC219 /* custormAlertViewUITests */ = {
+		4CEE71872004CFA7002BC219 /* custormAlertViewDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4CEE71972004CFA7002BC219 /* Build configuration list for PBXNativeTarget "custormAlertViewUITests" */;
+			buildConfigurationList = 4CEE71972004CFA7002BC219 /* Build configuration list for PBXNativeTarget "custormAlertViewDemoUITests" */;
 			buildPhases = (
 				4CEE71842004CFA7002BC219 /* Sources */,
 				4CEE71852004CFA7002BC219 /* Frameworks */,
@@ -186,9 +191,9 @@
 			dependencies = (
 				4CEE718A2004CFA7002BC219 /* PBXTargetDependency */,
 			);
-			name = custormAlertViewUITests;
+			name = custormAlertViewDemoUITests;
 			productName = custormAlertViewUITests;
-			productReference = 4CEE71882004CFA7002BC219 /* custormAlertViewUITests.xctest */;
+			productReference = 4CEE71882004CFA7002BC219 /* custormAlertViewDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -216,7 +221,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4CEE715D2004CFA7002BC219 /* Build configuration list for PBXProject "custormAlertView" */;
+			buildConfigurationList = 4CEE715D2004CFA7002BC219 /* Build configuration list for PBXProject "custormAlertViewDemo" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -229,9 +234,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4CEE71612004CFA7002BC219 /* custormAlertView */,
-				4CEE717C2004CFA7002BC219 /* custormAlertViewTests */,
-				4CEE71872004CFA7002BC219 /* custormAlertViewUITests */,
+				4CEE71612004CFA7002BC219 /* custormAlertViewDemo */,
+				4CEE717C2004CFA7002BC219 /* custormAlertViewDemoTests */,
+				4CEE71872004CFA7002BC219 /* custormAlertViewDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -270,6 +275,7 @@
 			files = (
 				4CEE71702004CFA7002BC219 /* custormAlertView.xcdatamodeld in Sources */,
 				4CEE716A2004CFA7002BC219 /* ViewController.m in Sources */,
+				4CEE719C2004CFF2002BC219 /* customAlertView.m in Sources */,
 				4CEE71782004CFA7002BC219 /* main.m in Sources */,
 				4CEE71672004CFA7002BC219 /* AppDelegate.m in Sources */,
 			);
@@ -296,12 +302,12 @@
 /* Begin PBXTargetDependency section */
 		4CEE717F2004CFA7002BC219 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4CEE71612004CFA7002BC219 /* custormAlertView */;
+			target = 4CEE71612004CFA7002BC219 /* custormAlertViewDemo */;
 			targetProxy = 4CEE717E2004CFA7002BC219 /* PBXContainerItemProxy */;
 		};
 		4CEE718A2004CFA7002BC219 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4CEE71612004CFA7002BC219 /* custormAlertView */;
+			target = 4CEE71612004CFA7002BC219 /* custormAlertViewDemo */;
 			targetProxy = 4CEE71892004CFA7002BC219 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -469,7 +475,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ztr.custormAlertViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/custormAlertView.app/custormAlertView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/custormAlertViewDemo.app/custormAlertViewDemo";
 			};
 			name = Debug;
 		};
@@ -484,7 +490,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ztr.custormAlertViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/custormAlertView.app/custormAlertView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/custormAlertViewDemo.app/custormAlertViewDemo";
 			};
 			name = Release;
 		};
@@ -519,7 +525,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4CEE715D2004CFA7002BC219 /* Build configuration list for PBXProject "custormAlertView" */ = {
+		4CEE715D2004CFA7002BC219 /* Build configuration list for PBXProject "custormAlertViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4CEE718F2004CFA7002BC219 /* Debug */,
@@ -528,7 +534,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4CEE71912004CFA7002BC219 /* Build configuration list for PBXNativeTarget "custormAlertView" */ = {
+		4CEE71912004CFA7002BC219 /* Build configuration list for PBXNativeTarget "custormAlertViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4CEE71922004CFA7002BC219 /* Debug */,
@@ -537,7 +543,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4CEE71942004CFA7002BC219 /* Build configuration list for PBXNativeTarget "custormAlertViewTests" */ = {
+		4CEE71942004CFA7002BC219 /* Build configuration list for PBXNativeTarget "custormAlertViewDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4CEE71952004CFA7002BC219 /* Debug */,
@@ -546,7 +552,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4CEE71972004CFA7002BC219 /* Build configuration list for PBXNativeTarget "custormAlertViewUITests" */ = {
+		4CEE71972004CFA7002BC219 /* Build configuration list for PBXNativeTarget "custormAlertViewDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4CEE71982004CFA7002BC219 /* Debug */,
